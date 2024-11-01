@@ -96,9 +96,13 @@ let generatePassword = document.getElementById('button');
 let passwordOutputOne = document.getElementById('output1');
 let passwordOutputTwo = document.getElementById('output2');
 
-generatePassword.addEventListener('click', function () {
-  let randomPasswordOne =
-    characters[Math.floor(Math.random() * characters.length)];
+let randomPasswordOne = '';
 
-  passwordOutputOne.textContent = randomPasswordOne;
+generatePassword.addEventListener('click', function () {
+  for (let i = 0; i < 15; i++) {
+    randomPasswordOne +=
+      characters[Math.floor(Math.random() * characters.length)];
+    passwordOutputOne.textContent = randomPasswordOne;
+    console.log(randomPasswordOne);
+  }
 });
