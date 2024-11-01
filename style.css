@@ -1,0 +1,68 @@
+/* Basic CSS Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 100%; /* Set default font size to 16px */
+  line-height: 1.5;
+}
+
+body {
+  -webkit-font-smoothing: antialiased; /* Improves text rendering */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit; /* Ensures inputs and buttons use the same font */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Styling */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+.outputs {
+  display: flex;
+}
+
+.output1,
+.output2 {
+  border: 2px solid red;
+  padding: 10px 20px;
+  width: 150px;
+  margin: 0 10px;
+}
