@@ -98,10 +98,15 @@ let passwordOutputTwo = document.getElementById('output2');
 
 generatePassword.addEventListener('click', function () {
   let randomPasswordOne = '';
+  let randomPasswordTwo = '';
+
   for (let i = 0; i < 15; i++) {
     randomPasswordOne +=
       characters[Math.floor(Math.random() * characters.length)];
     passwordOutputOne.textContent = randomPasswordOne;
-    console.log(randomPasswordOne);
+
+    randomPasswordTwo +=
+      characters[Math.floor(Math.random() * characters.length)];
+    passwordOutputTwo.textContent = randomPasswordTwo;
   }
 });
