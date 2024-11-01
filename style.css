@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Basic CSS Reset */
 *,
 *::before,
@@ -10,8 +11,9 @@
 html,
 body {
   height: 100%;
-  font-size: 100%; /* Set default font size to 16px */
+  font-size: 20px; /* Set default font size to 16px */
   line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -58,7 +60,7 @@ ol {
 
 .main {
   background-color: #ecfdf4;
-  padding: 300px 100px;
+  padding: 200px 100px;
   margin: 0 300px;
 }
 
@@ -96,7 +98,7 @@ button {
   padding: 15px 30px;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 5px;
   width: 50%;
 }
