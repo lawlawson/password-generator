@@ -49,23 +49,48 @@ ol {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
   height: 100vh;
   margin: 0;
+  background-color: #273549;
+}
+
+.main {
+  background-color: #ecfdf4;
+  padding: 300px 100px;
+  margin: 0 300px;
+}
+
+.button-container {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+hr {
+  border: 0.25px solid #d5d4d8;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #10b981;
+  color: #fff;
 }
 
 .outputs {
   display: flex;
-  width: 100%;
+  margin-top: 40px;
+  /* width: 100%; */
 }
 
 .output1,
 .output2 {
   display: flex;
   flex-direction: row;
-  border: 2px solid red;
-  padding: 10px 20px;
+  background-color: #273549;
+  color: #5def92;
+  padding: 20px 10px;
   width: 100%;
-  margin: 0 10px;
 }
