@@ -58,15 +58,33 @@ ol {
   background-color: #273549;
 }
 
+.heading1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.heading2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #10b981;
+}
+
 .main {
   background-color: #ecfdf4;
   padding: 200px 100px;
   margin: 0 300px;
+  border-radius: 10px;
 }
 
 .button-container {
   margin-top: 50px;
   margin-bottom: 40px;
+}
+
+.tagline {
+  font-size: 25px;
+  color: #6b7280;
+  margin-top: 10px;
 }
 
 hr {
@@ -95,7 +113,10 @@ button {
   flex-direction: row;
   background-color: #273549;
   color: #5def92;
-  padding: 15px 30px;
+  padding: 30px 60px;
+  align-items: center;
+  width: 150px;
+  height: 50px;
   text-align: center;
   text-decoration: none;
   font-size: 20px;
