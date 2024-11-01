@@ -77,12 +77,14 @@ button {
   border: none;
   background-color: #10b981;
   color: #fff;
+  cursor: pointer;
 }
 
 .outputs {
   display: flex;
   margin-top: 40px;
-  /* width: 100%; */
+  gap: 30px;
+  justify-content: center;
 }
 
 .output1,
@@ -91,6 +93,10 @@ button {
   flex-direction: row;
   background-color: #273549;
   color: #5def92;
-  padding: 20px 10px;
-  width: 100%;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 50%;
 }
