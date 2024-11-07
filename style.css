@@ -16,19 +16,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-body {
-  -webkit-font-smoothing: antialiased; /* Improves text rendering */
-  -moz-osx-font-smoothing: grayscale;
-}
-
-img,
-picture,
-video,
-canvas {
-  display: block;
-  max-width: 100%;
-}
-
 input,
 button,
 textarea,
@@ -36,18 +23,7 @@ select {
   font: inherit; /* Ensures inputs and buttons use the same font */
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
 /* Styling */
-
 .container {
   display: flex;
   justify-content: center;
